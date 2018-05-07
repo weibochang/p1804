@@ -1,2 +1,1000 @@
-我不告诉你，我是你爸爸
-    哈哈^_^
+  811  rm name.tar.bz2
+  812  ls
+  813  tar -cvf *
+  814  ls
+  815  tar -cvf 1.tar *
+  816  ls
+  817  ls -lh
+  818  gzip 1.tar
+  819  ls
+  820  tar -d 1.tar.gz
+  821  gzip -d 1.tar.gz
+  822  ls
+  823  tar -cvf 2.tar 4.txt 5.txt
+  824  ls
+  825  rm 4.txt
+  826  rm 5.txt
+  827  ls
+  828  gzip 0.tar *
+  829  ls
+  830  gzip -d *
+  831  ls
+  832  gzip 1.tar 2.tar
+  833  ls
+  834  gzip -d *.tar.gz
+  835  ls
+  836  gzip 11.tar 1.tar 2.tar
+  837  ls
+  838  gzip -d *.tar.gz
+  839  ls
+  840  gzip 2.tar.gz *
+  841  ls
+  842  gzip -d *.tar.gz
+  843  ls
+  844  history
+  845  more
+  846  history \ more
+  847  history | more
+  848  ls -lha | grep 123
+  849  which ls
+  850  ls
+  851  cd /bin/ls
+  852  find ./ -name 'ls'
+  853  ls
+  854  vi ls
+  855  whoami
+  856  id
+  857  who
+  858  cat /etc/passwd
+  859  useradd
+  860  ls
+  861  cd 1804
+  862  cd ~
+  863  useradd baibing
+  864  whoani
+  865  exit
+  866  user baibing
+  867  whoani
+  868  whoami
+  869  id
+  870  who
+  871  whoami
+  872  sudo  passwd
+  873  sudo passwd
+  874  su 
+  875  exit
+  876  sudo userdel cwb
+  877  exit
+  878  cat /etc/passwd
+  879  user xiaobai is currently used by process 3386
+  880  su
+  881  cat /etc/passwd
+  882  sudo userdel cwb
+  883  cat /etc/passwd
+  884  sudo userdel cwb
+  885  su
+  886  cat /etc/passwd
+  887  sudo userdel cwb
+  888  userdel cwb
+  889  sudo
+  890  sudo userdel cwb
+  891  su
+  892  su cwb
+  893  exit
+  894  whoami
+  895  id
+  896  who
+  897  whoami
+  898  cat /etc/passwd
+  899  su
+  900  su root
+  901  whoami
+  902  id
+  903  who
+  904  useradd cwb
+  905  su cwb
+  906  passwd cwb
+  907  useradd cwb
+  908  sudo useradd cwb
+  909  passwd cwb
+  910  sudo passwd cwb
+  911  su cwb
+  912  ls
+  913  whoami
+  914  id
+  915  sudo cwb
+  916  su cwb
+  917  cat /etc/passwd
+  918  sudo userdel cwb
+  919  cat /etc/passed
+  920  cat /etc/passwd
+  921  ls
+  922  cat /etc/passwd
+  923  sudo useradd 0
+  924  cat /etc/passwd
+  925  su 0
+  926  sudo passwd
+  927  su 0
+  928  cat /etc/passwd
+  929  su 0
+  930  su
+  931  du 0
+  932  su 0
+  933  su
+  934  su 0
+  935  cat /etc/passwd
+  936  su 0
+  937  sudo passwd
+  938  su 0
+  939  su
+  940  sudo /etc/group
+  941  cat  /etc/group
+  942  cat /etc/group > 1.txt
+  943  tree
+  944  cat 1.txt
+  945  vi 1.txt
+  946  his
+  947  history
+  948  cat /etc/passwd
+  949  su 0
+  950  sudo passwd 0
+  951  su 0
+  952  exit
+  953  cat /etc/passed
+  954  cat /etc/passwd
+  955  cat /etc/group
+  956  sudo usermod -G 0 小花花
+  957  groups 小花花
+  958  groups 0
+  959  sudo usermod -g 6 小花花
+  960  groups 6
+  961  cat /etc/group
+  962  cat /etc/passwd
+  963  sudo usermod -G 0 小花花
+  964  groups 小花花
+  965  cat /etc/group
+  966  cal
+  967  time
+  968  cal -y
+  969  cal
+  970  cal -y
+  971  time -n
+  972  cal -y
+  973  cal -y 2001
+  974  date
+  975  adate
+  976  date
+  977  dae
+  978  date
+  979  daet
+  980  date
+  981  dare
+  982  date '+%y%m%d'
+  983  date '+%y年%m月%d日‘
+  984  date
+  985  ps
+  986  date
+  987  dal
+  988  cal
+  989  ca
+  990  cal
+  991  ps
+  992  ps -s
+  993  ps -aux
+  994  ps -aux|more
+  995  top
+  996  kill
+  997  cd ~
+  998  ls
+  999  ps -s
+ 1000  reboot
+ 1001  df
+ 1002  df -ah
+ 1003  df -TH
+ 1004  df -th
+ 1005  df -Th
+ 1006  ls
+ 1007  du -sh  /home/changweibo
+ 1008  du -ah  /home/changweibo
+ 1009  du -ah  /home/changweibo|more
+ 1010  ping www.baidu.com
+ 1011  cat /etc/passwd
+ 1012  cat /etc/group
+ 1013  cat /etc/passwd
+ 1014  usermod -g 0 小花花
+ 1015  sudo usermod -g 0 小花花
+ 1016  groups 小花花
+ 1017  sudo groupadd 110
+ 1018  cat /etc/group
+ 1019  usermod -g 0 110
+ 1020  sudo usermod -g 110 0
+ 1021  groups 0
+ 1022  sudo usermod -g 110 0
+ 1023  groups 0
+ 1024  sudo usermod -G 123 0
+ 1025  group 0
+ 1026  groups 0
+ 1027  sudo usermod -G '123' 0
+ 1028  groups 0
+ 1029  sudo userod -g 小花花 0
+ 1030  sudo usermod -g 小花花
+ 1031  sudo usermod -g 小花花 0
+ 1032  groups 0
+ 1033  cat /etc/group
+ 1034  su
+ 1035  cat /etc/grouop
+ 1036  cat /etc/group
+ 1037  sudo groupadd wangqian
+ 1038  cat /etc/passwd
+ 1039  su
+ 1040  ls
+ 1041  tree
+ 1042  cd 1804
+ 1043  rm 女友1
+ 1044  rm 女友2
+ 1045  rm 女友3
+ 1046  rm 女友4
+ 1047  rm 女友5
+ 1048  tree
+ 1049  rm a
+ 1050  rmdir -p a b d
+ 1051  tree
+ 1052  rm 女友
+ 1053  rmdir
+ 1054  rmdir 女友
+ 1055  tree
+ 1056  mkdir beicai
+ 1057  mkdir aa bb cc
+ 1058  tree
+ 1059  rmdir aa
+ 1060  rmdir bb
+ 1061  rmdir cc
+ 1062  cd beicai
+ 1063  mkdir aa bb cc
+ 1064  cd aa
+ 1065  touch hello
+ 1066  cd ../bb
+ 1067  touch world
+ 1068  cd ../cc
+ 1069  touch itcast.py
+ 1070  ls -R
+ 1071  cd ..
+ 1072  ls -R
+ 1073  cd ..
+ 1074  rm -rf beicai
+ 1075  ls
+ 1076  cal
+ 1077  cal > 1.txt
+ 1078  ls
+ 1079  gedit 1.txt
+ 1080  get apt-upde
+ 1081  get upde
+ 1082  cat /etc/passwd
+ 1083  cat /etc/group
+ 1084  groupdel 小花花
+ 1085  sudo groupdel 小花花
+ 1086  cat /etc/group
+ 1087  usermod -g wangqian 小花花
+ 1088  sudo usermod -g wangqian 小花花
+ 1089  groups 小花花
+ 1090  cat /etc/group
+ 1091  cat /etc/group | wangqian
+ 1092  cat /etc/group|wangqian
+ 1093  cat /etc/group|1
+ 1094  cat /etc/group | 1
+ 1095  cat /etc/group
+ 1096  cat /etc/group | grep wangqian
+ 1097  history
+ 1098  vi
+ 1099  vi 
+ 1100  vi
+ 1101  ls
+ 1102  tree
+ 1103  vi
+ 1104  ls
+ 1105  history
+ 1106  exit
+ 1107  cat /etc/passwd
+ 1108  su 小花花
+ 1109  ls
+ 1110  rm 1.txt
+ 1111  tree
+ 1112  touch 1.txt
+ 1113  ls
+ 1114  scp ./1.txt xiao@10.0.2.15
+ 1115  touch 2.txgt
+ 1116  rm 2.txgt
+ 1117  touch 2.txt
+ 1118  ls
+ 1119  pwd
+ 1120  scp 1.txt xiao@10.0.2.15
+ 1121  ls
+ 1122  scp 1.txt xiao@10.0.2.15:
+ 1123  pwd
+ 1124  cd xiao
+ 1125  cd /xiao
+ 1126  pwd
+ 1127  cd /home
+ 1128  pwd
+ 1129  cd xiao
+ 1130  ls
+ 1131  cd ..
+ 1132  ls
+ 1133  cd `
+ 1134  cd ~
+ 1135  ps
+ 1136  pwd
+ 1137  cd /home
+ 1138  ls
+ 1139  cd xiao
+ 1140  tree
+ 1141  ls
+ 1142  pwd
+ 1143  cat 1.txt
+ 1144  gedit 1.txt
+ 1145  touch 1
+ 1146  exit
+ 1147  sudo apt-get openssh-server
+ 1148  sudo apt-get install openssh-server
+ 1149  date
+ 1150  cat /etc/group
+ 1151  sudo apt-get uddate
+ 1152  sudo apt-get update
+ 1153  ifconfig
+ 1154  ssh changweibo@10.0.2.15
+ 1155  ifconfig
+ 1156  ssh ldz@10.0.2.15
+ 1157  ls
+ 1158  ssh dzb@10.0.2.15
+ 1159  sudo ssh dzb@10.0.2.15
+ 1160  ls
+ 1161  scp ./1.txt@10.0.2.15
+ 1162  sudo useradd -m xiao
+ 1163  cat /etc/passwd
+ 1164  sudo passwd xiao
+ 1165  su xiao
+ 1166  cd /home
+ 1167  ls
+ 1168  su xiao
+ 1169  su xiaobai
+ 1170  sudo passwd xiaobai
+ 1171  cd /home
+ 1172  ls
+ 1173  su xiaobai
+ 1174  sudo passwd xiaobai
+ 1175  pwd
+ 1176  ls
+ 1177  su xiaobai
+ 1178  sudo passwd xiaobai
+ 1179  cat /etc/passwd
+ 1180  cd ~
+ 1181  pwd
+ 1182  cd /home
+ 1183  ls
+ 1184  rm xiaobai
+ 1185  rmdir xiaobai
+ 1186  sudo rmdir xiaobai
+ 1187  sudo rmdir -rf xiaobai
+ 1188  sudo rm -rf xiaobai
+ 1189  pwd
+ 1190  ls
+ 1191  lslslslsls
+ 1192  sl
+ 1193  sl -h
+ 1194  sl -s
+ 1195  sl-s
+ 1196  sl-h
+ 1197  cd ~
+ 1198  sudo useradd bai
+ 1199  sudo passwd bai
+ 1200  pwd
+ 1201  cd /home
+ 1202  ls
+ 1203  LS
+ 1204  ls
+ 1205  sl
+ 1206  ls
+ 1207  cd ~
+ 1208  ls
+ 1209  tree
+ 1210  scp -r ./1804 xiao@10.0.2.15:
+ 1211  ls
+ 1212  gedit 1.txt
+ 1213  ls
+ 1214  tree
+ 1215  tar -cvf wo 1804
+ 1216  ls
+ 1217  tree
+ 1218  tar -cvf 下载 1804
+ 1219  tar -cvf 1.txt 1804
+ 1220  ls
+ 1221  tree
+ 1222  tar -cvf 1804
+ 1223  tar -cvf name.txt 1804
+ 1224  ls
+ 1225  cd name.txt
+ 1226  tree
+ 1227  rm name.txt
+ 1228  tar -cvf name 1804
+ 1229  ls
+ 1230  tree
+ 1231  rm name
+ 1232  ls
+ 1233  tar -cvf name.tar 1804
+ 1234  ls
+ 1235  mv 1804 /.1804
+ 1236  mv 1804 .1804
+ 1237  ls
+ 1238  tar -xvf name.tar
+ 1239  ls
+ 1240  ls -a
+ 1241  ls
+ 1242  shutdowm
+ 1243  poweroff
+ 1244  cat /etc/passwd
+ 1245  su bai
+ 1246  cd /
+ 1247  ls
+ 1248  cd /home
+ 1249  ls
+ 1250  sudo userdel bai
+ 1251  ls
+ 1252  cat /etc/passwd
+ 1253  su xiao
+ 1254  cd ~
+ 1255  ls
+ 1256  su xiao
+ 1257  ls
+ 1258  tar -xvf name.tar
+ 1259  ls
+ 1260  ls -a
+ 1261  mv .1804 1804
+ 1262  ls
+ 1263  ls -a
+ 1264  ls
+ 1265  ls -h
+ 1266  ll
+ 1267  ls
+ 1268  ls -a
+ 1269  ls
+ 1270  ni
+ 1271  ls
+ 1272  tar -cvf na 1804
+ 1273  ls
+ 1274  ls'
+ 1275  ls
+ 1276  ls
+ 1277  l
+ 1278  ls
+ 1279  l
+ 1280  cd 1804
+ 1281  ls
+ 1282  tree
+ 1283  ls
+ 1284  cd ..
+ 1285  cd ~
+ 1286  ls
+ 1287  rm name.tar
+ 1288  ls
+ 1289  tar -cvf name.tar 1804
+ 1290  ls
+ 1291  rm name.tar
+ 1292  ls
+ 1293  tar -cvf name.tar 1804
+ 1294  ls
+ 1295  gzip name.tar
+ 1296  ls
+ 1297  tar -zxvf name.tar.gz 
+ 1298  ls
+ 1299  rm name.tar.gz
+ 1300  ls
+ 1301  cd wo
+ 1302  rm wo
+ 1303  rm na
+ 1304  rm 1.txt
+ 1305  rm 2.txt
+ 1306  ls
+ 1307  rm xiao@10.0.2.15
+ 1308  ls
+ 1309  gedit test.py
+ 1310  tar test.tar test.py
+ 1311  tar -cvf test.tar test.py
+ 1312  ls
+ 1313  rm test.py
+ 1314  ls
+ 1315  gizp test.tar
+ 1316  gzip test.tar 
+ 1317  ls
+ 1318  gzip -zxcf test test.tar.gz
+ 1319  gzip -d tse.tar.gz
+ 1320  gzip -d test.tar.gz
+ 1321  ls
+ 1322  tar -xvf test.tar
+ 1323  ls
+ 1324  rm test.tar
+ 1325  ls
+ 1326  gzip -zcvf test
+ 1327  gzip -acvf test.tar.bz2 name
+ 1328  gzip -zcvf test.tar.bz2 name
+ 1329  gzip -zcvf name.tar.bz2 test
+ 1330  ls
+ 1331  gzip -zcvf test.pytar.bz2 name
+ 1332  gzip -man
+ 1333  gzip -help
+ 1334  ls
+ 1335  gzip -zcvf name.tar.bz2 test.py
+ 1336  gzip -jcvf name.tar.bz2 test.py
+ 1337  nishuowoshinibaba
+ 1338  woshuonibabashiwoerzi
+ 1339  wobuzhidao
+ 1340  ls
+ 1341  gzip -jcvf name.tar.bz2 test.py
+ 1342  ls
+ 1343  tar -jcvf name.tar.bz2 test.py
+ 1344  ls
+ 1345  hsitory
+ 1346  history
+ 1347  ls
+ 1348  rm name.tar.bz2
+ 1349  ls
+ 1350  tar -zcvf name.tar.bz2 test.py
+ 1351  ls
+ 1352  tar.jcvf na.tar.bz2 test.py
+ 1353  tar -jcvf na.tar.bz2 test.py
+ 1354  ls
+ 1355  rm name.tar.bz2
+ 1356  rm na.tar.bz2
+ 1357  ls
+ 1358  tar -zcvf n.tar.bz2 test.py
+ 1359  ls
+ 1360  tar -jcvf m.tar.bz2 test.py
+ 1361  ls
+ 1362  rm n.tar.bz2
+ 1363  ls
+ 1364  rm m.tar.bz2
+ 1365  ls
+ 1366  tar -zcvf n.tar.bz2 test.py
+ 1367  ls
+ 1368  tar -zxvf n.tar.bz2
+ 1369  ls
+ 1370  rm n.tar.bz2
+ 1371  ls
+ 1372  history
+ 1373  scp xiao@10.0.2.15:/home/xiao/test.py .
+ 1374  ls
+ 1375  rm test.py
+ 1376  ls
+ 1377  scp xiao@10.0.2.15:/home/xioa/test.py .
+ 1378  ls
+ 1379  scp xiao@10.0.2.15:/home/xiao/1 .
+ 1380  hsitory
+ 1381  history
+ 1382  vi
+ 1383  ls
+ 1384  scp -p xiao@10.0.2.15:/home/xiao/1 .
+ 1385  scp -r xiao@10.0.2.15:/home/xiao/1 .
+ 1386  ls
+ 1387  sudo userdel 小花花
+ 1388  cat /etc/passwd
+ 1389  poweroff
+ 1390  vimtutor
+ 1391  sudo apt install vim-runtime
+ 1392  vi
+ 1393  vim
+ 1394  sudo apt install vim
+ 1395  vim
+ 1396  vimtutor
+ 1397  vmi
+ 1398  vim
+ 1399  vimtutor
+ 1400  vimtutor 
+ 1401  vitutor
+ 1402  vimtutor
+ 1403  vimoutor
+ 1404  vimtotur
+ 1405  vimtutor
+ 1406  cimtutor
+ 1407  vimtutor
+ 1408  vimtotur
+ 1409  vimttor
+ 1410  vimtutor
+ 1411  ping www.baidu.com
+ 1412  vimtutor
+ 1413  cim wq.txt
+ 1414  vim wq.txt
+ 1415  sudo apt install git
+ 1416  git clone--depth=1 https://github.com/amix/cimrc.git~/.vim_runtime
+ 1417  git clone --depth=1 https://github.com/amix/cimrc.git~/.vim_runtime
+ 1418  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+ 1419  sh ~/.vim_runtime/install_awesome_vimrc.sh
+ 1420  vimtutor
+ 1421  ls
+ 1422  tree
+ 1423  vim q.txt
+ 1424  vim 1.txt
+ 1425  cd ~
+ 1426  ls -a
+ 1427  vim vimrc
+ 1428  vim .vimrc
+ 1429  vim 1.txt
+ 1430  man -rm
+ 1431  rm
+ 1432  man rm
+ 1433  update-manager
+ 1434  sudo apt install '/home/changweibo/下载/sogoupinyin_2.2.0.0108_amd64.deb' 
+ 1435  ps 
+ 1436  kill 10605
+ 1437  ps
+ 1438  ls -l
+ 1439  ll
+ 1440  ps -aux
+ 1441  kill 66
+ 1442  kill 666
+ 1443  ps
+ 1444  sudo kill 666
+ 1445  ssh
+ 1446  ps -aux
+ 1447  ls
+ 1448  cd ~
+ 1449  ls
+ 1450  tree
+ 1451  我是你爸爸，儿子儿子，我是你爸爸，过来，坐下，
+ 1452  sudo apt-get update
+ 1453  shutdown -n
+ 1454  shundown -h now
+ 1455  poweroff
+ 1456  vimtutor
+ 1457  vimturot
+ 1458  vimtutor
+ 1459  cimtutor
+ 1460  vimtutor
+ 1461  vimtutor 
+ 1462  vimtutor
+ 1463  power
+ 1464  poweroff
+ 1465  sudo useradd 常伟波 -m
+ 1466  cat /etc/passwd
+ 1467  ls
+ 1468  cd ~
+ 1469  ls
+ 1470  cd -
+ 1471  cd ~
+ 1472  cd /home
+ 1473  ls
+ 1474  sudo userdel -r 常伟波
+ 1475  ls
+ 1476  sudo useradd -m 常伟波
+ 1477  cat /etc/passwd
+ 1478  ls
+ 1479  sudo userdel -r 常伟波
+ 1480  ls
+ 1481  cat /etc/passwd
+ 1482  groupmod
+ 1483  sudo useradd -g wq xiao
+ 1484  sudo useradd -g xiao wq
+ 1485  ls
+ 1486  cat /etc/passwd
+ 1487  groups wq
+ 1488  sudo userdel wq
+ 1489  cat /etc/passwd
+ 1490  sudo useradd -gm xiao qw
+ 1491  sudo useradd -mg xiao qw
+ 1492  ls
+ 1493  groups qw
+ 1494  su
+ 1495  su -s
+ 1496  sudo -s
+ 1497  man chmod
+ 1498  vimtutor
+ 1499  reboot
+ 1500  power
+ 1501  poweroff
+ 1502  vimsturot
+ 1503  vimtutor
+ 1504  init 6
+ 1505  init 0
+ 1506  su -wq
+ 1507  cat /etc/passwd
+ 1508  su -qw
+ 1509  su qw
+ 1510  su qw12345678
+ 1511  su qw
+ 1512  sudo passwd qw
+ 1513  su qw
+ 1514  su -s qw
+ 1515  cd /home
+ 1516  ls
+ 1517  su -s qw
+ 1518  su qw
+ 1519  exit
+ 1520  touch 11010.txt
+ 1521  exit
+ 1522  cat /etc/passwd
+ 1523  su xiao
+ 1524  sudo passwd xiao
+ 1525  su xiao -s
+ 1526  su -s xiao
+ 1527  cd /home
+ 1528  su -s xiao
+ 1529  su xiao
+ 1530  ls
+ 1531  ssh weiguozhen@10.0.2.15
+ 1532  sudo ssh weiguozhen@10.0.2.15
+ 1533  ls
+ 1534  sudo useradd chang -m
+ 1535  cat /etc/passwd
+ 1536  su -s chang
+ 1537  sudo passwd chang
+ 1538  su -s chang
+ 1539  su chang 
+ 1540  su -s chang
+ 1541  man su
+ 1542  su -chang
+ 1543  cd /home
+ 1544  ls
+ 1545  su-chang
+ 1546  su -chang
+ 1547  su chang
+ 1548  sudo usrdel-r chang
+ 1549  sudo userdel chang -r
+ 1550  ls
+ 1551  sudo userdel qw -r
+ 1552  init 0
+ 1553  exit
+ 1554  ssh changweibo@10.0.2.15
+ 1555  ls
+ 1556  l
+ 1557  init 0
+ 1558  ls
+ 1559  tree
+ 1560  mkdir -p /1.txt/2.txt
+ 1561  ls
+ 1562  pwd
+ 1563  cd ~
+ 1564  ls
+ 1565  mkdir -p /1.txt/2.txt/
+ 1566  mkdir 1.txt
+ 1567  ls
+ 1568  rmdir 1.txt
+ 1569  ls
+ 1570  mkdir -p 1.txt 2.txt
+ 1571  ls
+ 1572  tree
+ 1573  ls
+ 1574  rmdir 2.txt
+ 1575  rmdir 1.txt
+ 1576  mkdir -p q/w
+ 1577  ls
+ 1578  cd q
+ 1579  ls
+ 1580  cd ..
+ 1581  ls
+ 1582  rm -rf q
+ 1583  ls
+ 1584  rm upsart-udev-bridge.11689.pid
+ 1585  rm usstart-udev-beidge.11689.pid
+ 1586  rm upstart-udev-bridge.11689.pid
+ 1587  rm upstart-udev-bridge.13357.pid
+ 1588  ls
+ 1589  tree
+ 1590  rm 22.txt
+ 1591  ls
+ 1592  rm 11010.txt
+ 1593  ls
+ 1594  tree
+ 1595  cd ./公共的 ./1
+ 1596  ls
+ 1597  cd //
+ 1598  cd ..
+ 1599  cd ~
+ 1600  tree
+ 1601  cp ./公共的/22.txt ./1
+ 1602  tree
+ 1603  cd xiazai
+ 1604  cd 下载
+ 1605  rm sogoupinyin_2.2.0.0108_amd64.deb
+ 1606  ls
+ 1607  你在干什么呢？
+ 1608  我有点想你了
+ 1609  你是不是我的宝宝啊
+ 1610  你个傻逼
+ 1611  你不是我的宝宝
+ 1612  你是傻逼
+ 1613  卧槽你吗
+ 1614  tree
+ 1615  cd ..
+ 1616  ls
+ 1617  tree
+ 1618  cd 1
+ 1619  ls
+ 1620  ln -s 22.txt ./../模板
+ 1621  ls
+ 1622  cd ../模板
+ 1623  ls
+ 1624  rm 22.txt
+ 1625  ls
+ 1626  cd ..
+ 1627  ls
+ 1628  tree
+ 1629  ln -s ./1/22.txt 模板
+ 1630  tree
+ 1631  rm 模板/22.txt
+ 1632  tree
+ 1633  cd 模板
+ 1634  touch 1.txt 2.txt 3.txt
+ 1635  ls
+ 1636  rm *
+ 1637  ls
+ 1638  cd ~
+ 1639  ls
+ 1640  ifconfig
+ 1641  ifcofig
+ 1642  ifconfig
+ 1643  ifcongif
+ 1644  ifconfig
+ 1645  ls
+ 1646  ifconfig
+ 1647  pa -aux | grep 8832
+ 1648  ps -aux |grep 8832
+ 1649  ps -aux
+ 1650  pa -aux | grep 8831
+ 1651  ps -aux | grep 8831
+ 1652  tree
+ 1653  find ./桌面/demo -name 11.txt
+ 1654  ls
+ 1655  tree
+ 1656  find /-name 11.txt
+ 1657  find ./-name 11.txt
+ 1658  cd 桌面/demo
+ 1659  find ./11.txt
+ 1660  find ./-name 11.txt
+ 1661  find /桌面/demo -name *.txt
+ 1662  find ./桌面/demo -name *.txt
+ 1663  tree
+ 1664  ls
+ 1665  gzip 1.tar 1.tar
+ 1666  gzip 1.tar
+ 1667  ls
+ 1668  rm 1.tar.gz
+ 1669  ls
+ 1670  tar 1.tar 11.txt 22.txt 33.txt
+ 1671  ls
+ 1672  tar -cvf 1.tar 11.txt 22.txt 33.txt
+ 1673  ls
+ 1674  rm 11.txt
+ 1675  rm 22.txt 33.txt
+ 1676  ls
+ 1677  gzip 1.tar
+ 1678  ls
+ 1679  gzip -d 1.tar.gz
+ 1680  ls
+ 1681  gzip 2.tar 1.tar
+ 1682  ls
+ 1683  gzip -d 1.tar.gz
+ 1684  ls
+ 1685  tar -xvf 1.tar
+ 1686  ls
+ 1687  rm 1.tar
+ 1688  ls
+ 1689  tar -zcvf 1.tar.gz *
+ 1690  ls
+ 1691  tar -zxvf 1.tar -C /home/changweibo/模板
+ 1692  cd ~
+ 1693  tree
+ 1694  cd ./桌面/demo
+ 1695  tar -zxvf 1.tar.gz -C /home/changweibo/模板
+ 1696  cd ./../../模板
+ 1697  ls
+ 1698  ping www.baidu.com
+ 1699  cd ~
+ 1700  ping www.baidu.com
+ 1701  ll
+ 1702  tree
+ 1703  history > 1/1.txt
+ 1704  cd 1
+ 1705  ls
+ 1706  gedit 1.txt
+ 1707  init 0
+ 1708  ls
+ 1709  cd git1804
+ 1710  touch 常伟波.txt
+ 1711  ls
+ 1712  vi README.md
+ 1713  git add README.md
+ 1714  git commit -m "README.md"
+ 1715  git push -u origin master
+ 1716  ls
+ 1717  git push -u origin master
+ 1718  git add .
+ 1719  git commit -m "常伟波“
+ 1720  git commit -m "常伟波"
+ 1721  git push -u origin master
+ 1722  vi 常伟波
+ 1723  mv 常伟波 第一次
+ 1724  ls
+ 1725  mv 常伟波.txt 第一次
+ 1726  ls
+ 1727  vi 第一次
+ 1728  git add .
+ 1729  git commit "新手上路"
+ 1730  git commit "新手上路
+ 1731  git commit "新手上路"
+ 1732  git push -u origine master
+ 1733  git add 第一次
+ 1734  git commit -m "新手上路"
+ 1735  git push -u origine master
+ 1736  git push -u origin master
+ 1737  ls
+ 1738  rm 第一次
+ 1739  ls
+ 1740  git add .
+ 1741  git commit -m 
+ 1742  git commit -m "README.md"
+ 1743  git push -u origin master
+ 1744  mkdir p1804
+ 1745  git add .
+ 1746  git commit "第一个目录"
+ 1747  git commit -m "第一个目录"
+ 1748  ls
+ 1749  cd p1804
+ 1750  touch 1.txt
+ 1751  cd ..
+ 1752  git add .
+ 1753  git commit -m "第一个目录
+ 1754  git commit -m "第一个目录"
+ 1755  git push -u origin master
+ 1756  ls
+ 1757  cd p1804
+ 1758  ls
+ 1759  gedit 1.txt
+ 1760  git add.
+ 1761  git add .
+ 1762  git commit "目录测试"
+ 1763  git push -u origin master
+ 1764  cd ~
+ 1765  ls
+ 1766  cd git 1804
+ 1767  cd git1804
+ 1768  ls
+ 1769  cd p1804
+ 1770  ls
+ 1771  gedit 1.txt
+ 1772  vi 1.txt
+ 1773  cd ..
+ 1774  git add .
+ 1775  git commit -m "目录测试"
+ 1776  git push -u origin master
+ 1777  ls
+ 1778  mkdir q
+ 1779  ls
+ 1780  cd q
+ 1781  touch 2.txt
+ 1782  gedit 2.txt
+ 1783  cd ..
+ 1784  git add .
+ 1785  git commit -m "目录测试2"
+ 1786  git push -u origin master
+ 1787  ls
+ 1788  rm -rf q
+ 1789  mkdir w
+ 1790  cd w
+ 1791  touch 2.txt
+ 1792  gedit 2.txt
+ 1793  git add .
+ 1794  git commit -m "目录测试2"
+ 1795  git push -u origin master
+ 1796  ls
+ 1797  cd ..
+ 1798  ls
+ 1799  git add .
+ 1800  git commit -m 
+ 1801  git commit -m "目录测试完毕"
+ 1802  git push -u origin master
+ 1803  ls
+ 1804  cd w
+ 1805  ls
+ 1806  gedit 2.txt
+ 1807  cd ~
+ 1808  ls
+ 1809  tree
+ 1810  history > ./git1804/p1804/1.txt
